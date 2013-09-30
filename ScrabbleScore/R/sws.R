@@ -1,3 +1,4 @@
+data(letter.dists)
 sws <-
 function(w){
   wv <- strsplit(w,"")[[1]]
