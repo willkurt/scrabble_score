@@ -4,8 +4,6 @@ Title: Calculates Scrabble score for strings
 Version: 1.0
 Date: 2013-09-30
 Author: Will Kurt
-Maintainer: Will Kurt <wckurt@gmail.com
-Description: Given a word will produce that word's scrabble score. Unlike many naive implementations
-this package takes into consideration the distribution of letter in scrabble. So a word like 'zzz' will 
-be scored '10' rather than '30'.
+Maintainer: Will Kurt <wckurt@gmail.com>
+Description: Given a word will produce that word's scrabble score. Unlike many naive implementations this package takes into consideration the distribution of letter in scrabble. So a word like 'zzz' will be scored '10' rather than '30'.
 License: The MIT License
