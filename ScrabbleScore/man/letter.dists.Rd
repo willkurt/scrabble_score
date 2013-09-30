@@ -2,10 +2,10 @@
 \alias{letter.dists}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Scrabble letter distribution table
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+A table specifying the exact distribution of letters in a normal game of Scrabble. Used to calculate impossible.points
 }
 \usage{data(letter.dists)}
 \format{

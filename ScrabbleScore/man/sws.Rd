@@ -2,10 +2,10 @@
 \alias{sws}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Scrabble Word Score
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Gives the base word score for a string in scrabble.
 }
 \usage{
 sws(w)

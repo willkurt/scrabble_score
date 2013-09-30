@@ -1,8 +1,8 @@
 \name{impossible.points}
 \alias{impossible.points}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-%%  ~~function to do ... ~~
+\title{Calculates the number of point in access of the maximum possible amount due to the limitations of the the letter distribution.
+
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~

@@ -2,10 +2,10 @@
 \alias{sls}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Scrabble Letter Score
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+A simple function giving the standard letter value of each letter in Scrabble.
 }
 \usage{
 sls(l)
