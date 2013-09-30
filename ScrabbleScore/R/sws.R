@@ -2,7 +2,7 @@ sws <-
 function(w,only.possible=TRUE,check.valid=FALSE){
   #Scrabble words have no case
   w <- tolower(w)
-  if(check.valid & !is.twl06.word(w)){
+  if(check.valid && !is.twl06.word(w)){
     return(0)
   }
   wv <- strsplit(w,"")[[1]]
