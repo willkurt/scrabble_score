@@ -2,18 +2,18 @@
 \alias{is.twl06.word.Rd}
 
 \title{
-Verifies that word belong to the TWL06 list.
+Verifies that word belong to the twl06 list.
 }
 \description{
-
+Only certain words are officially approved for Scrabble tournament play. They are collected in a dataset revered to as twl06
 }
 \usage{
-is.twl06.word.Rd(x)
+is.twl06.word(w)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{w}{
+  Word or vector of words to check for inclusion in the twl06 list
 }
 }
 \details{
@@ -27,7 +27,7 @@ is.twl06.word.Rd(x)
 %% ...
 }
 \references{
-%% ~put references to the literature/web site here ~
+https://en.wikipedia.org/wiki/Official_Tournament_and_Club_Word_List
 }
 \author{
 %%  ~~who you are~~
@@ -42,16 +42,8 @@ is.twl06.word.Rd(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x) 
-{
-  }
+is.twl06.word("zzz")
+is.twl06.word(c("zzz","zzzz"))
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ twl06 }
+\keyword{ scrabbble }% __ONLY ONE__ keyword per line

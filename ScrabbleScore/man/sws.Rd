@@ -1,6 +1,6 @@
 \name{sws}
 \alias{sws}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{
 Scrabble Word Score
 }
@@ -8,13 +8,22 @@ Scrabble Word Score
 Gives the base word score for a string in scrabble.
 }
 \usage{
-sws(w)
+sws(w,only.possible=TRUE,check.valid=FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{w}{
-%%     ~~Describe \code{w} here~~
+  Word or vector of words
 }
+  \item{only.possible}{
+  Default=TRUE Only consider scores that are possible based on the distribution of scrabble letters.
+  For example "zzz" would score 30 if it weren't for the fact that there is only 1 'z'
+  necessitating the use of 2 blanks, for a real score of 10.
+}
+\item{check.valid}{
+Default=FALSE When TRUE returns a score of 0 for words not in the TWL06 dictionary.
+}
+
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
@@ -42,19 +51,13 @@ sws(w)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+sws("zzz")
+sws(c("dog","zzz"))
+sws(c("dog","zzz"),only.possible=FALSE)
+sws(c("dog","zzzzzz"),only.possible=FALSE,check.valid=TRUE)
 
-## The function is currently defined as
-function (w) 
-{
-    wv <- strsplit(w, "")[[1]]
-    init.score <- sum(sapply(wv, sls))
-    init.score - impossible.points(wv)
-  }
-}
+
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ scrabble }
+\keyword{ score }% __ONLY ONE__ keyword per line
