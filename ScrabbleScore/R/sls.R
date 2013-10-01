@@ -1,11 +1,10 @@
 sls <-
 function(l){
-  if(l %in% c("e","a","i","o","n","r","t","l","s","u")){return(1)} 
-  else if (l %in% c("d","g")){ return(2)}
-  else if (l %in% c("b","c","m","p")){ return(3)}
-  else if (l %in% c("f","h","v","w","y")){ return(4)}
-  else if (l %in% c("k")){ return(5)}
-  else if (l %in% c("j","x")){ return(8)}
-  else if (l %in% c("q","z")){ return(10)}
-  else{return(0)}
+  ifelse(l %in% c("e","a","i","o","n","r","t","l","s","u"),1,
+    ifelse(l %in% c("d","g"),2,
+     ifelse(l %in% c("b","c","m","p"),3,
+      ifelse(l %in% c("f","h","v","w","y"),4,
+        ifelse(l %in% c("k"),5,
+          ifelse(l %in% c("j","x"),8,
+            ifelse(l %in% c("q","z"),10,0)))))))
 }
