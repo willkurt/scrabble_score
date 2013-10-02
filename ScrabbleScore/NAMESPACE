@@ -1,1 +1,4 @@
-exportPattern("^[[:alpha:]]+")
+export("sws")
+export("sls")
+export("impossible.points")
+export("is.twl06.word")
