@@ -28,7 +28,9 @@ Project at: https://github.com/willkurt/scrabble_score
 \references{
 
 }
-
+\note{
+The name "Scrabble" is a trademark of Hasbro, Inc. in the United States and Canada; elsewhere, it is a trademark of Mattel.
+}
 
 \seealso{
 
