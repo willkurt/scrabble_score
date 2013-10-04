@@ -1,5 +1,5 @@
-\name{is.twl06.word.Rd}
-\alias{is.twl06.word.Rd}
+\name{is.twl06.word}
+\alias{is.twl06.word}
 
 \title{
 Verifies that word belong to the twl06 list.
@@ -45,5 +45,4 @@ https://en.wikipedia.org/wiki/Official_Tournament_and_Club_Word_List
 is.twl06.word("zzz")
 is.twl06.word(c("zzz","zzzz"))
 }
-\keyword{ twl06 }
-\keyword{ scrabbble }% __ONLY ONE__ keyword per line
+

@@ -59,5 +59,4 @@ sws(c("dog","zzzzzz"),only.possible=FALSE,check.valid=TRUE)
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ scrabble }
-\keyword{ score }% __ONLY ONE__ keyword per line
+
