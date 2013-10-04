@@ -1,11 +1,11 @@
 \name{impossible.points}
 \alias{impossible.points}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Calculates the number of point in access of the maximum possible amount due to the limitations of the the letter distribution.
-
+\title{
+Calculates total of impossible points
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Calculates the number of point in access of the maximum possible amount due to the limitations of the the letter distribution.
 }
 \usage{
 impossible.points(wv)
@@ -13,7 +13,7 @@ impossible.points(wv)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{wv}{
-%%     ~~Describe \code{wv} here~~
+  Word broken down into characters (or a list of such words)
 }
 }
 \details{
@@ -42,21 +42,6 @@ impossible.points(wv)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (wv) 
-{
-    wt <- table(wv)
-    sum(sapply(names(wt), function(l) {
-        ifelse(wt[l] > letter.dists[l], (wt[l] - letter.dists[l]) * 
-            sls(l), 0)
-    }))
-  }
+  impossible.points(c('z','z','z'))
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+

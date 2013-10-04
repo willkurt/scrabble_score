@@ -14,7 +14,7 @@ Package: \tab ScrabbleScore\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2013-09-30\cr
-License: \tab The MIT License\cr
+License: \tab MIT License\cr
 }
 The most useful function is 'sws' which computes the Scrabble word score for a given string. It takes into account the letter distribution so not to count impossible letter combinations, such as 'zzz' (worth 10 rather than 30 due to necessity of blanks)
 }
@@ -22,12 +22,16 @@ The most useful function is 'sws' which computes the Scrabble word score for a g
 Will Kurt
 
 Maintainer: Will Kurt <wckurt@gmail.com>
+
+Project at: https://github.com/willkurt/scrabble_score 
 }
 \references{
 
 }
+\note{
+The name "Scrabble" is a trademark of Hasbro, Inc. in the United States and Canada; elsewhere, it is a trademark of Mattel.
+}
 
-\keyword{ scrabble }
 \seealso{
 
 }
