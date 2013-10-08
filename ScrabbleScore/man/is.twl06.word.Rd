@@ -30,7 +30,7 @@ is.twl06.word(w)
 https://en.wikipedia.org/wiki/Official_Tournament_and_Club_Word_List
 }
 \author{
-%%  ~~who you are~~
+Will Kurt <wckurt@gmail.com>
 }
 \note{
 %%  ~~further notes~~

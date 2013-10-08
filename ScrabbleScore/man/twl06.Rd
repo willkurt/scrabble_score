@@ -2,7 +2,7 @@
 \alias{twl06}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+TWL06 word list
 }
 \description{
 The Official Tournament and Club Word List
@@ -10,7 +10,7 @@ The Official Tournament and Club Word List
 \usage{data(twl06)}
 \format{
   A list of official Scrabble Words
-  }
+  
 }
 \details{
 %%  ~~ If necessary, more details than the __description__ above ~~

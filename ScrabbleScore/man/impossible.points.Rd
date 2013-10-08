@@ -30,7 +30,7 @@ impossible.points(wv)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Will Kurt <wckurt@gmail.com>
 }
 \note{
 %%  ~~further notes~~

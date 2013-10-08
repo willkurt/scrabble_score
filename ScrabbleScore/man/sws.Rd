@@ -39,7 +39,7 @@ Default=FALSE When TRUE returns a score of 0 for words not in the TWL06 dictiona
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Will Kurt <wckurt@gmail.com>
 }
 \note{
 %%  ~~further notes~~
@@ -56,7 +56,7 @@ sws(c("dog","zzz"))
 sws(c("dog","zzz"),only.possible=FALSE)
 sws(c("dog","zzzzzz"),only.possible=FALSE,check.valid=TRUE)
 
-
+}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 

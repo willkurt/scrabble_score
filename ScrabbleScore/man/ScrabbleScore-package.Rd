@@ -6,7 +6,7 @@
 Calculates Scrabble score for strings 
 }
 \description{
- Given a word will produce that word's scrabble score. Unlike many naive implementations this package takes into consideration the distribution of letter in scrabble. So a word like 'zzz' will be scored '10' rather than '30'.
+ Given a word will produce that word's scrabble score. Unlike many naive implementations this package takes into consideration the distribution of letters in scrabble. So a word like 'zzz' will be scored '10' rather than '30'.
 }
 \details{
 \tabular{ll}{
