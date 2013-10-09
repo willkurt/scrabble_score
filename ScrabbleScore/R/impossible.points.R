@@ -1,9 +1,9 @@
 data(sysdata,envir=environment())
 impossible.points <-
-function(wv){
+function(cl){
  
-  wt <- lapply(wv,table)
-  extra.points <- lapply(wt,function(t){
+  ct <- lapply(cl,table)
+  extra.points <- lapply(ct,function(t){
     sapply(names(t),function(l){
       ifelse(t[l] > letter.dists[l],(t[l]-letter.dists[l])*sls(l),0)
     })

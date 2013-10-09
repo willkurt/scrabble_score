@@ -9,11 +9,7 @@ The Official Tournament and Club Word List
 }
 \usage{data(twl06)}
 \format{
-  A list of official Scrabble Words
-  
-}
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+  A list of official Scrabble Words 
 }
 \source{
 http://norvig.com/ngrams/TWL06.txt
@@ -21,6 +17,9 @@ http://norvig.com/ngrams/TWL06.txt
 \references{
 http://en.wikipedia.org/wiki/Official_Tournament_and_Club_Word_List
 
+}
+\note{
+The name "Scrabble" is a trademark of Hasbro, Inc. in the United States and Canada; elsewhere, it is a trademark of Mattel.
 }
 \examples{
 data(twl06)

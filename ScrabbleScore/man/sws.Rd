@@ -10,7 +10,7 @@ Gives the base word score for a string in scrabble.
 \usage{
 sws(w,only.possible=TRUE,check.valid=FALSE)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{w}{
   Word or vector of words
@@ -25,30 +25,21 @@ Default=FALSE When TRUE returns a score of 0 for words not in the TWL06 dictiona
 }
 
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+Returns a vector of values for the word score of each word passed in.
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{
 Will Kurt <wckurt@gmail.com>
 }
 \note{
-%%  ~~further notes~~
+The name "Scrabble" is a trademark of Hasbro, Inc. in the United States and Canada; elsewhere, it is a trademark of Mattel.
 }
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+\code{\link{sls}}
 }
 \examples{
 sws("zzz")
@@ -57,6 +48,4 @@ sws(c("dog","zzz"),only.possible=FALSE)
 sws(c("dog","zzzzzz"),only.possible=FALSE,check.valid=TRUE)
 
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
 

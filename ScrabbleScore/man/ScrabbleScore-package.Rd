@@ -26,15 +26,13 @@ Maintainer: Will Kurt <wckurt@gmail.com>
 Project at: https://github.com/willkurt/scrabble_score 
 }
 \references{
-
+https://github.com/willkurt/scrabble_score 
 }
 \note{
 The name "Scrabble" is a trademark of Hasbro, Inc. in the United States and Canada; elsewhere, it is a trademark of Mattel.
 }
 
-\seealso{
-
-}
 \examples{
-
+data(twl06)
+sws(head(twl06))
 }

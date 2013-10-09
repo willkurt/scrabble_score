@@ -14,17 +14,14 @@ A table specifying the exact distribution of letters in a normal game of Scrabbl
  - attr(*, "dimnames")=List of 1
   ..$ : chr [1:26] "a" "b" "c" "d" ...
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+table compiled from data found here: http://en.wikipedia.org/wiki/Scrabble_letter_distributions
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
+\note{
+The name "Scrabble" is a trademark of Hasbro, Inc. in the United States and Canada; elsewhere, it is a trademark of Mattel.
 }
 \examples{
 data(letter.dists)
-## maybe str(letter.dists) ; plot(letter.dists) ...
 }
 \keyword{datasets}
